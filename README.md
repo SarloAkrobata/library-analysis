@@ -19,7 +19,7 @@ docker build --no-cache -t library_analysis .
 
 
 ```bash
-docker run -d --name library_analysis -v /Users/baib@mediait.ch/Projects/trcirs-crawlers/output:/app/output library_analysis tail -f /dev/null
+docker run -d --name library_analysis -v ~/library_analysis/output:/app/output library_analysis tail -f /dev/null
 ```
 
 ### Run program
